@@ -19,7 +19,7 @@ jobs:  								# gather all the jobs that run in the workflow
            echo 'Viewing the file: '   
            cat requirements.txt 
       - name:  Check out main
-        uses: actions/checkout@main
+        uses: actions/checkout@master
    
       - name: Security vulnerabilties scan
-        uses: aufdenpunkt/python-safety-check@main
+        uses: aufdenpunkt/python-safety-check@master
